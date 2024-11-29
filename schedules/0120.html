@@ -1,452 +1,444 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>1/20 當日行程</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            background-color: #f9f9f9;
-        }
-        h1, h2, h3, h4 {
-            text-align: center;
-        }
-        section {
-            margin: 20px 0;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
-        table, th, td {
-            border: 1px solid #ccc;
-        }
-        th, td {
-            padding: 10px;
-            text-align: left;
-        }
-        th {
-            background-color: #f4f4f4;
-        }
-    </style>
-</head>
-<body>
+    <link rel="stylesheet" href="../styles/common.css" />
+  </head>
+  <body>
     <header>
-        <h1>1/20 當日行程</h1>
+      <h1>1/20 當日行程</h1>
     </header>
 
     <section id="schedule">
-        <h2>行程表格</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>時間段</th>
-                    <th>行程內容</th>
-                    <th>交通方式與出發時間</th>
-                    <th>預估交通時間</th>
-                    <th>備註</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>08:00</td>
-                    <td>前往嵐山天龍寺與竹林步道</td>
-                    <td>從京都站搭乘嵐電至嵐山站</td>
-                    <td>約 25 分鐘</td>
-                    <td>探索天龍寺與周邊竹林步道</td>
-                </tr>
-                <tr>
-                    <td>12:00</td>
-                    <td>午餐（嵐山地區美食）</td>
-                    <td>步行至附近餐廳</td>
-                    <td>-</td>
-                    <td>品嚐美食，推薦湯豆腐料理</td>
-                </tr>
-                <tr>
-                    <td>14:00</td>
-                    <td>參觀金閣寺（鹿苑寺）</td>
-                    <td>從嵐山站搭乘巴士至金閣寺</td>
-                    <td>約 40 分鐘</td>
-                    <td>世界文化遺產，欣賞庭園風景</td>
-                </tr>
-                <tr>
-                    <td>16:30</td>
-                    <td>河原町購物與晚餐</td>
-                    <td>從金閣寺搭乘巴士至河原町</td>
-                    <td>約 30 分鐘</td>
-                    <td>自由活動，探索購物商店與美食</td>
-                </tr>
-                <tr>
-                    <td>20:00</td>
-                    <td>返回飯店休息</td>
-                    <td>從河原町搭乘巴士或地鐵返回京都站</td>
-                    <td>約 20 分鐘</td>
-                    <td>自由安排</td>
-                </tr>
-            </tbody>
-        </table>
-            </tbody>
-        </table>
-        -->
+      <h2>行程表格</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>時間段</th>
+            <th>行程內容</th>
+            <th>交通方式與出發時間</th>
+            <th>預估交通時間</th>
+            <th>備註</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>08:00</td>
+            <td>前往嵐山天龍寺與竹林步道</td>
+            <td>從京都站搭乘嵐電至嵐山站</td>
+            <td>約 25 分鐘</td>
+            <td>探索天龍寺與周邊竹林步道</td>
+          </tr>
+          <tr>
+            <td>12:00</td>
+            <td>午餐（嵐山地區美食）</td>
+            <td>步行至附近餐廳</td>
+            <td>-</td>
+            <td>品嚐美食，推薦湯豆腐料理</td>
+          </tr>
+          <tr>
+            <td>14:00</td>
+            <td>參觀金閣寺（鹿苑寺）</td>
+            <td>從嵐山站搭乘巴士至金閣寺</td>
+            <td>約 40 分鐘</td>
+            <td>世界文化遺產，欣賞庭園風景</td>
+          </tr>
+          <tr>
+            <td>16:30</td>
+            <td>河原町購物與晚餐</td>
+            <td>從金閣寺搭乘巴士至河原町</td>
+            <td>約 30 分鐘</td>
+            <td>自由活動，探索購物商店與美食</td>
+          </tr>
+          <tr>
+            <td>20:00</td>
+            <td>返回飯店休息</td>
+            <td>從河原町搭乘巴士或地鐵返回京都站</td>
+            <td>約 20 分鐘</td>
+            <td>自由安排</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
 
     <section id="arashiyama">
-        <h2>嵐山天龍寺與竹林步道補充資料</h2>
-        <h3>天龍寺介紹</h3>
-        <p>天龍寺是日本臨濟宗天龍寺派的大本山，為世界文化遺產...</p>
-        <h3>鄰近景點</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>景點名稱</th>
-                    <th>亮點與介紹</th>
-                    <th>距離天龍寺</th>
-                    <th>備註</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>嵐山竹林步道</td>
-                    <td>綠意盎然的竹林隧道，適合拍攝與漫步</td>
-                    <td>步行約 5 分鐘</td>
-                    <td>早晨或黃昏造訪人較少，氛圍最佳</td>
-                </tr>
-                <tr>
-                    <td>渡月橋</td>
-                    <td>嵐山地標，橫跨桂川，適合拍攝山水風光</td>
-                    <td>步行約 10 分鐘</td>
-                    <td>晚上點燈季節景色尤佳</td>
-                </tr>
-                <tr>
-                    <td>嵯峨野小火車</td>
-                    <td>復古觀光火車，穿越嵐山山林，景色迷人</td>
-                    <td>步行約 10 分鐘</td>
-                    <td>春天賞櫻與秋天紅葉期間極受歡迎</td>
-                </tr>
-                <tr>
-                    <td>野宮神社</td>
-                    <td>求姻緣與考試順利的神社，具有濃厚歷史感</td>
-                    <td>步行約 8 分鐘</td>
-                    <td>黑木鳥居為拍照熱點</td>
-                </tr>
-            </tbody>
-        </table>
-        <h3>小吃推薦</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>店名</th>
-                    <th>特色與推薦品項</th>
-                    <th>距離天龍寺</th>
-                    <th>營業時間</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>嵯峨豆腐三忠</td>
-                    <td>手工湯豆腐、豆乳甜點</td>
-                    <td>步行約 5 分鐘</td>
-                    <td>10:00～17:00</td>
-                </tr>
-                <tr>
-                    <td>嵐山湯葉屋</td>
-                    <td>豆腐甜甜圈、豆乳霜淇淋</td>
-                    <td>步行約 6 分鐘</td>
-                    <td>10:00～18:00</td>
-                </tr>
-                <tr>
-                    <td>老松嵐山本店</td>
-                    <td>京都名物柚子最中、夏季限定果凍</td>
-                    <td>步行約 7 分鐘</td>
-                    <td>09:00～18:00</td>
-                </tr>
-            </tbody>
-        </table>
-        <h3>餐廳推薦</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>餐廳名稱</th>
-                    <th>特色與推薦餐點</th>
-                    <th>距離天龍寺</th>
-                    <th>營業時間</th>
-                    <th>備註</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>湯豆腐 嵯峨野</td>
-                    <td>京都傳統湯豆腐套餐</td>
-                    <td>步行約 3 分鐘</td>
-                    <td>11:00～16:00</td>
-                    <td>需提前預約，人氣餐廳</td>
-                </tr>
-                <tr>
-                    <td>鯛匠 HANANA</td>
-                    <td>鯛魚飯套餐，清爽美味</td>
-                    <td>步行約 5 分鐘</td>
-                    <td>11:00～17:00（L.O.16:00）</td>
-                    <td>日本旅遊節目推薦，份量適中</td>
-                </tr>
-            </tbody>
-        </table>
-        <h3>紀念品商店推薦</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>店名</th>
-                    <th>特色與推薦商品</th>
-                    <th>距離天龍寺</th>
-                    <th>營業時間</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>竹之館</td>
-                    <td>竹製手工藝品、扇子</td>
-                    <td>步行約 5 分鐘</td>
-                    <td>09:00～18:00</td>
-                </tr>
-                <tr>
-                    <td>京嵐山工藝品店</td>
-                    <td>京都手工陶器、和風小物</td>
-                    <td>步行約 7 分鐘</td>
-                    <td>10:00～19:00</td>
-                </tr>
-                <tr>
-                    <td>祇園白川屋</td>
-                    <td>京都名產八橋、和果子禮盒</td>
-                    <td>步行約 6 分鐘</td>
-                    <td>09:00～18:00</td>
-                </tr>
-            </tbody>
-        </table>
+      <h2>嵐山天龍寺與竹林步道補充資料</h2>
+      <h3>天龍寺介紹</h3>
+      <p>
+        天龍寺是日本臨濟宗天龍寺派的大本山，位於嵐山地區，為世界文化遺產之一。
+        天龍寺建於 1339
+        年，由足利尊氏為追悼後醍醐天皇而建立，是京都五山之一。該寺院因其禪宗建築和壯麗庭園而聞名，擁有豐富的歷史文化價值。
+        其中，天龍寺的庭園設計採用了借景手法，將嵐山與渡月橋的自然風光融入庭園中，成為訪客欣賞日本傳統園林設計的絕佳地點。
+        此外，法堂內的「雲龍圖」更是藝術珍品，吸引大量遊客與佛教文化愛好者前來參觀。
+      </p>
+      <h3>鄰近景點</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>景點名稱</th>
+            <th>亮點與介紹</th>
+            <th>距離天龍寺</th>
+            <th>備註</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>嵐山竹林步道</td>
+            <td>綠意盎然的竹林隧道，適合拍攝與漫步</td>
+            <td>步行約 5 分鐘</td>
+            <td>早晨或黃昏造訪人較少，氛圍最佳</td>
+          </tr>
+          <tr>
+            <td>渡月橋</td>
+            <td>嵐山地標，橫跨桂川，適合拍攝山水風光</td>
+            <td>步行約 10 分鐘</td>
+            <td>晚上點燈季節景色尤佳</td>
+          </tr>
+          <tr>
+            <td>嵯峨野小火車</td>
+            <td>復古觀光火車，穿越嵐山山林，景色迷人</td>
+            <td>步行約 10 分鐘</td>
+            <td>春天賞櫻與秋天紅葉期間極受歡迎</td>
+          </tr>
+          <tr>
+            <td>野宮神社</td>
+            <td>求姻緣與考試順利的神社，具有濃厚歷史感</td>
+            <td>步行約 8 分鐘</td>
+            <td>黑木鳥居為拍照熱點</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3>小吃推薦</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>店名</th>
+            <th>特色與推薦品項</th>
+            <th>距離天龍寺</th>
+            <th>營業時間</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>嵯峨豆腐三忠</td>
+            <td>手工湯豆腐、豆乳甜點</td>
+            <td>步行約 5 分鐘</td>
+            <td>10:00～17:00</td>
+          </tr>
+          <tr>
+            <td>嵐山湯葉屋</td>
+            <td>豆腐甜甜圈、豆乳霜淇淋</td>
+            <td>步行約 6 分鐘</td>
+            <td>10:00～18:00</td>
+          </tr>
+          <tr>
+            <td>老松嵐山本店</td>
+            <td>京都名物柚子最中、夏季限定果凍</td>
+            <td>步行約 7 分鐘</td>
+            <td>09:00～18:00</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3>餐廳推薦</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>餐廳名稱</th>
+            <th>特色與推薦餐點</th>
+            <th>距離天龍寺</th>
+            <th>營業時間</th>
+            <th>備註</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>湯豆腐 嵯峨野</td>
+            <td>京都傳統湯豆腐套餐</td>
+            <td>步行約 3 分鐘</td>
+            <td>11:00～16:00</td>
+            <td>需提前預約，人氣餐廳</td>
+          </tr>
+          <tr>
+            <td>鯛匠 HANANA</td>
+            <td>鯛魚飯套餐，清爽美味</td>
+            <td>步行約 5 分鐘</td>
+            <td>11:00～17:00（L.O.16:00）</td>
+            <td>日本旅遊節目推薦，份量適中</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3>紀念品商店推薦</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>店名</th>
+            <th>特色與推薦商品</th>
+            <th>距離天龍寺</th>
+            <th>營業時間</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>竹之館</td>
+            <td>竹製手工藝品、扇子</td>
+            <td>步行約 5 分鐘</td>
+            <td>09:00～18:00</td>
+          </tr>
+          <tr>
+            <td>京嵐山工藝品店</td>
+            <td>京都手工陶器、和風小物</td>
+            <td>步行約 7 分鐘</td>
+            <td>10:00～19:00</td>
+          </tr>
+          <tr>
+            <td>祇園白川屋</td>
+            <td>京都名產八橋、和果子禮盒</td>
+            <td>步行約 6 分鐘</td>
+            <td>09:00～18:00</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
 
     <section id="kinkakuji">
-        <h2>金閣寺（鹿苑寺）補充資料</h2>
-        <h3>介紹與亮點</h3>
-        <p>金閣寺是京都著名的世界文化遺產...</p>
-        <h3>鄰近景點</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>景點名稱</th>
-                    <th>亮點與介紹</th>
-                    <th>距離金閣寺</th>
-                    <th>備註</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>龍安寺</td>
-                    <td>枯山水石庭，簡潔深遠的禪宗庭園</td>
-                    <td>步行約 15 分鐘</td>
-                    <td>世界文化遺產，靜心參觀</td>
-                </tr>
-                <tr>
-                    <td>北野天滿宮</td>
-                    <td>供奉學問之神菅原道真，梅花季特別美麗</td>
-                    <td>搭乘巴士約 10 分鐘</td>
-                    <td>每月 25 日有大型市集</td>
-                </tr>
-            </tbody>
-        </table>
-        <h3>小吃推薦</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>店名</th>
-                    <th>特色與推薦品項</th>
-                    <th>距離金閣寺</th>
-                    <th>營業時間</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>金閣そふと</td>
-                    <td>金箔霜淇淋</td>
-                    <td>步行約 5 分鐘</td>
-                    <td>10:00～17:00</td>
-                </tr>
-                <tr>
-                    <td>鯛魚燒本舖</td>
-                    <td>傳統鯛魚燒，內餡濃郁</td>
-                    <td>步行約 8 分鐘</td>
-                    <td>09:00～18:00</td>
-                </tr>
-            </tbody>
-        </table>
-        <h3>餐廳推薦</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>餐廳名稱</th>
-                    <th>特色與推薦餐點</th>
-                    <th>距離金閣寺</th>
-                    <th>營業時間</th>
-                    <th>備註</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>西源院</td>
-                    <td>精進料理，提供傳統日式素食餐點</td>
-                    <td>步行約 15 分鐘</td>
-                    <td>11:00～14:00</td>
-                    <td>位於龍安寺內，需提前預約</td>
-                </tr>
-                <tr>
-                    <td>八百伊</td>
-                    <td>京都風味的鰻魚飯套餐</td>
-                    <td>步行約 10 分鐘</td>
-                    <td>11:30～19:30</td>
-                    <td>鰻魚現烤，口感鮮美</td>
-                </tr>
-            </tbody>
-        </table>
-        <h3>紀念品商店推薦</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>店名</th>
-                    <th>特色與推薦商品</th>
-                    <th>距離金閣寺</th>
-                    <th>營業時間</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>京扇堂</td>
-                    <td>手工製作的京都傳統扇子</td>
-                    <td>步行約 10 分鐘</td>
-                    <td>10:00～18:00</td>
-                </tr>
-                <tr>
-                    <td>清水燈心堂</td>
-                    <td>手工蠟燭與香品</td>
-                    <td>步行約 12 分鐘</td>
-                    <td>09:30～17:30</td>
-                </tr>
-            </tbody>
-        </table>
+      <h2>金閣寺（鹿苑寺）補充資料</h2>
+      <h3>介紹與亮點</h3>
+      <p>
+        金閣寺是京都著名的世界文化遺產，閃耀金色的佛教禪宗建築，庭園景色優美，尤其以倒影於鏡湖為一大亮點。
+      </p>
+
+      <h3>鄰近景點</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>景點名稱</th>
+            <th>亮點與介紹</th>
+            <th>距離金閣寺</th>
+            <th>備註</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>龍安寺</td>
+            <td>枯山水石庭，簡潔深遠的禪宗庭園</td>
+            <td>步行約 15 分鐘</td>
+            <td>世界文化遺產，靜心參觀</td>
+          </tr>
+          <tr>
+            <td>北野天滿宮</td>
+            <td>供奉學問之神菅原道真，梅花季特別美麗</td>
+            <td>搭乘巴士約 10 分鐘</td>
+            <td>每月 25 日有大型市集</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>小吃推薦</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>店名</th>
+            <th>特色與推薦品項</th>
+            <th>距離金閣寺</th>
+            <th>營業時間</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>金閣そふと</td>
+            <td>金箔霜淇淋</td>
+            <td>步行約 5 分鐘</td>
+            <td>10:00～17:00</td>
+          </tr>
+          <tr>
+            <td>鯛魚燒本舖</td>
+            <td>傳統鯛魚燒，內餡濃郁</td>
+            <td>步行約 8 分鐘</td>
+            <td>09:00～18:00</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>餐廳推薦</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>餐廳名稱</th>
+            <th>特色與推薦餐點</th>
+            <th>距離金閣寺</th>
+            <th>營業時間</th>
+            <th>備註</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>西源院</td>
+            <td>精進料理，提供傳統日式素食餐點</td>
+            <td>步行約 15 分鐘</td>
+            <td>11:00～14:00</td>
+            <td>位於龍安寺內，需提前預約</td>
+          </tr>
+          <tr>
+            <td>八百伊</td>
+            <td>京都風味的鰻魚飯套餐</td>
+            <td>步行約 10 分鐘</td>
+            <td>11:30～19:30</td>
+            <td>鰻魚現烤，口感鮮美</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>紀念品商店推薦</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>店名</th>
+            <th>特色與推薦商品</th>
+            <th>距離金閣寺</th>
+            <th>營業時間</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>京扇堂</td>
+            <td>手工製作的京都傳統扇子</td>
+            <td>步行約 10 分鐘</td>
+            <td>10:00～18:00</td>
+          </tr>
+          <tr>
+            <td>清水燈心堂</td>
+            <td>手工蠟燭與香品</td>
+            <td>步行約 12 分鐘</td>
+            <td>09:30～17:30</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
 
     <section id="kawaramachi">
-        <h2>河原町補充資料</h2>
-        <h3>景點推薦</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>景點名稱</th>
-                    <th>亮點與介紹</th>
-                    <th>距離河原町</th>
-                    <th>備註</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>錦市場</td>
-                    <td>「京都的廚房」，販售當地美食與新鮮食材</td>
-                    <td>步行約 5 分鐘</td>
-                    <td>適合品嚐小吃與購買伴手禮</td>
-                </tr>
-                <tr>
-                    <td>先斗町</td>
-                    <td>鴨川旁的花街，聚集餐廳與居酒屋</td>
-                    <td>步行約 10 分鐘</td>
-                    <td>夏季有納涼床體驗</td>
-                </tr>
-                <tr>
-                    <td>八坂神社</td>
-                    <td>京都著名神社，四季皆有特色</td>
-                    <td>步行約 20 分鐘</td>
-                    <td>春季櫻花與夏季祭典熱鬧非凡</td>
-                </tr>
-            </tbody>
-        </table>
-        <h3>小吃推薦</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>店名</th>
-                    <th>特色與推薦品項</th>
-                    <th>距離河原町</th>
-                    <th>營業時間</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>祇園豆腐</td>
-                    <td>豆腐霜淇淋、豆乳甜點</td>
-                    <td>步行約 8 分鐘</td>
-                    <td>09:00～18:00</td>
-                </tr>
-                <tr>
-                    <td>京壽堂</td>
-                    <td>抹茶生八橋、甜味仙貝</td>
-                    <td>步行約 10 分鐘</td>
-                    <td>10:00～17:00</td>
-                </tr>
-            </tbody>
-        </table>
-        <h3>餐廳推薦</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>餐廳名稱</th>
-                    <th>特色與推薦餐點</th>
-                    <th>距離河原町</th>
-                    <th>營業時間</th>
-                    <th>備註</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>京の焼肉処 弘 三条木屋町店</td>
-                    <td>高品質的和牛燒肉</td>
-                    <td>步行約 10 分鐘</td>
-                    <td>17:00～00:00</td>
-                    <td>建議提前預約</td>
-                </tr>
-                <tr>
-                    <td>祇園小松屋</td>
-                    <td>京都風懷石料理套餐</td>
-                    <td>步行約 15 分鐘</td>
-                    <td>11:00～14:00</td>
-                    <td>高檔餐廳，需提前預約</td>
-                </tr>
-            </tbody>
-        </table>
-        <h3>紀念品商店推薦</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>店名</th>
-                    <th>特色與推薦商品</th>
-                    <th>距離河原町</th>
-                    <th>營業時間</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>京都鳩居堂 本店</td>
-                    <td>傳統和紙、香品、文具等</td>
-                    <td>步行約 5 分鐘</td>
-                    <td>10:00～18:00</td>
-                </tr>
-                <tr>
-                    <td>八坂人形工藝館</td>
-                    <td>手工人偶與京都風民俗小物</td>
-                    <td>步行約 12 分鐘</td>
-                    <td>09:30～17:30</td>
-                </tr>
-            </tbody>
-        </table>
+      <h2>河原町補充資料</h2>
+      <h3>景點推薦</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>景點名稱</th>
+            <th>亮點與介紹</th>
+            <th>距離河原町</th>
+            <th>備註</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>錦市場</td>
+            <td>「京都的廚房」，販售當地美食與新鮮食材</td>
+            <td>步行約 5 分鐘</td>
+            <td>適合品嚐小吃與購買伴手禮</td>
+          </tr>
+          <tr>
+            <td>先斗町</td>
+            <td>鴨川旁的花街，聚集餐廳與居酒屋</td>
+            <td>步行約 10 分鐘</td>
+            <td>夏季有納涼床體驗</td>
+          </tr>
+          <tr>
+            <td>八坂神社</td>
+            <td>京都著名神社，四季皆有特色</td>
+            <td>步行約 20 分鐘</td>
+            <td>春季櫻花與夏季祭典熱鬧非凡</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>小吃推薦</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>店名</th>
+            <th>特色與推薦品項</th>
+            <th>距離河原町</th>
+            <th>營業時間</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>祇園豆腐</td>
+            <td>豆腐霜淇淋、豆乳甜點</td>
+            <td>步行約 8 分鐘</td>
+            <td>09:00～18:00</td>
+          </tr>
+          <tr>
+            <td>京壽堂</td>
+            <td>抹茶生八橋、甜味仙貝</td>
+            <td>步行約 10 分鐘</td>
+            <td>10:00～17:00</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>餐廳推薦</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>餐廳名稱</th>
+            <th>特色與推薦餐點</th>
+            <th>距離河原町</th>
+            <th>營業時間</th>
+            <th>備註</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>京の焼肉処 弘 三条木屋町店</td>
+            <td>高品質的和牛燒肉</td>
+            <td>步行約 10 分鐘</td>
+            <td>17:00～00:00</td>
+            <td>建議提前預約</td>
+          </tr>
+          <tr>
+            <td>祇園小松屋</td>
+            <td>京都風懷石料理套餐</td>
+            <td>步行約 15 分鐘</td>
+            <td>11:00～14:00</td>
+            <td>高檔餐廳，需提前預約</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>紀念品商店推薦</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>店名</th>
+            <th>特色與推薦商品</th>
+            <th>距離河原町</th>
+            <th>營業時間</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>京都鳩居堂 本店</td>
+            <td>傳統和紙、香品、文具等</td>
+            <td>步行約 5 分鐘</td>
+            <td>10:00～18:00</td>
+          </tr>
+          <tr>
+            <td>八坂人形工藝館</td>
+            <td>手工人偶與京都風民俗小物</td>
+            <td>步行約 12 分鐘</td>
+            <td>09:30～17:30</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
-</body>
+
+    <!-- 回到頂部的按鈕 -->
+    <button id="back-to-top">↑</button>
+
+    <!-- 回首頁的按鈕 -->
+    <a id="home-button" href="../index.html">回首頁</a>
+
+    <script src="../scripts/common.js"></script>
+  </body>
 </html>
