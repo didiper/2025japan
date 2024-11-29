@@ -4,132 +4,124 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>1/17 當日行程</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        margin: 20px;
-      }
-      table {
-        width: 100%;
-        border-collapse: collapse;
-        margin: 20px 0;
-      }
-      table,
-      th,
-      td {
-        border: 1px solid #ccc;
-      }
-      th,
-      td {
-        padding: 10px;
-        text-align: left;
-      }
-      th {
-        background-color: #f4f4f4;
-      }
-      h1,
-      h2,
-      h3,
-      h4 {
-        margin-top: 20px;
-      }
-    </style>
+    <link rel="stylesheet" href="../styles/common.css" />
   </head>
   <body>
-    <h1>1/17 當日行程</h1>
+    <header>
+      <h1>1/17 當日行程</h1>
+    </header>
 
-    <h2>行程表格</h2>
-    <table>
-      <tr>
-        <th>時間段</th>
-        <th>行程內容</th>
-        <th>交通方式與出發時間</th>
-        <th>預估交通時間</th>
-        <th>備註</th>
-      </tr>
-      <tr>
-        <td>08:00</td>
-        <td>從飯店前往環球影城</td>
-        <td>從西九條站搭乘 <strong>JR 夢咲線</strong> 前往環球影城站</td>
-        <td>約 15 分鐘</td>
-        <td>建議提前抵達園區入口，以節省排隊時間</td>
-      </tr>
-      <tr>
-        <td>09:00</td>
-        <td>進入環球影城開始遊玩</td>
-        <td>-</td>
-        <td>-</td>
-        <td>自由遊玩，探索熱門設施</td>
-      </tr>
-      <tr>
-        <td>13:20</td>
-        <td>進入哈利波特園區</td>
-        <td>-</td>
-        <td>-</td>
-        <td>準備進行主題活動</td>
-      </tr>
-      <tr>
-        <td>13:40 - 14:10</td>
-        <td>玩哈利波特禁忌之旅</td>
-        <td>-</td>
-        <td>-</td>
-        <td>使用快速通關票</td>
-      </tr>
-      <tr>
-        <td>15:30 - 16:00</td>
-        <td>玩好萊塢美夢乘車遊</td>
-        <td>-</td>
-        <td>-</td>
-        <td>使用快速通關票</td>
-      </tr>
-      <tr>
-        <td>17:00</td>
-        <td>進入馬力歐園區</td>
-        <td>-</td>
-        <td>-</td>
-        <td>準備進行主題活動</td>
-      </tr>
-      <tr>
-        <td>17:00 - 17:30</td>
-        <td>玩庫巴的挑戰</td>
-        <td>-</td>
-        <td>-</td>
-        <td>使用快速通關票</td>
-      </tr>
-      <tr>
-        <td>20:00</td>
-        <td>返回飯店</td>
-        <td>從環球影城站搭乘 <strong>JR 夢咲線</strong> 返回西九條站</td>
-        <td>約 15 分鐘</td>
-        <td>-</td>
-      </tr>
-    </table>
+    <section id="schedule">
+      <h2>行程表格</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>時間段</th>
+            <th>行程內容</th>
+            <th>交通方式與出發時間</th>
+            <th>預估交通時間</th>
+            <th>備註</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>08:00</td>
+            <td>從飯店前往環球影城</td>
+            <td>從西九條站搭乘 <strong>JR 夢咲線</strong> 前往環球影城站</td>
+            <td>約 15 分鐘</td>
+            <td>建議提前抵達園區入口，以節省排隊時間</td>
+          </tr>
+          <tr>
+            <td>09:00</td>
+            <td>進入環球影城開始遊玩</td>
+            <td>-</td>
+            <td>-</td>
+            <td>自由遊玩，探索熱門設施</td>
+          </tr>
+          <tr>
+            <td>13:20</td>
+            <td>進入哈利波特園區</td>
+            <td>-</td>
+            <td>-</td>
+            <td>準備進行主題活動</td>
+          </tr>
+          <tr>
+            <td>13:40 - 14:10</td>
+            <td>玩哈利波特禁忌之旅</td>
+            <td>-</td>
+            <td>-</td>
+            <td>使用快速通關票</td>
+          </tr>
+          <tr>
+            <td>15:30 - 16:00</td>
+            <td>玩好萊塢美夢乘車遊</td>
+            <td>-</td>
+            <td>-</td>
+            <td>使用快速通關票</td>
+          </tr>
+          <tr>
+            <td>17:00</td>
+            <td>進入馬力歐園區</td>
+            <td>-</td>
+            <td>-</td>
+            <td>準備進行主題活動</td>
+          </tr>
+          <tr>
+            <td>17:00 - 17:30</td>
+            <td>玩庫巴的挑戰</td>
+            <td>-</td>
+            <td>-</td>
+            <td>使用快速通關票</td>
+          </tr>
+          <tr>
+            <td>20:00</td>
+            <td>返回飯店</td>
+            <td>從環球影城站搭乘 <strong>JR 夢咲線</strong> 返回西九條站</td>
+            <td>約 15 分鐘</td>
+            <td>-</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
 
-    <h2>補充資料</h2>
-    <h3>1. 環球影城快速通關資訊</h3>
-    <ul>
-      <li><strong>快速通關時段：</strong></li>
+    <section id="supplements">
+      <h2>補充資料</h2>
+
+      <h3>1. 環球影城快速通關資訊</h3>
       <ul>
-        <li>13:20 - 入場哈利波特園區</li>
-        <li>13:40 - 14:10 - 哈利波特禁忌之旅</li>
-        <li>15:30 - 16:00 - 好萊塢美夢乘車遊</li>
-        <li>17:00 - 入場馬力歐園區</li>
-        <li>17:00 - 17:30 - 庫巴的挑戰</li>
+        <li>
+          <strong>快速通關時段：</strong>
+          <ul>
+            <li>13:20 - 入場哈利波特園區</li>
+            <li>13:40 - 14:10 - 哈利波特禁忌之旅</li>
+            <li>15:30 - 16:00 - 好萊塢美夢乘車遊</li>
+            <li>17:00 - 入場馬力歐園區</li>
+            <li>17:00 - 17:30 - 庫巴的挑戰</li>
+          </ul>
+        </li>
+        <li>
+          <strong>建議行程安排：</strong>
+          建議提早抵達園區並安排自由遊玩時間於快速通關間隙。
+        </li>
+        <li>
+          <strong>注意事項：</strong>
+          攜帶行動電源，並提前查詢當日園區開放時間。
+        </li>
       </ul>
-      <li>
-        <strong>建議行程安排：</strong
-        >建議提早抵達園區並安排自由遊玩時間於快速通關間隙。
-      </li>
-      <li>
-        <strong>注意事項：</strong>攜帶行動電源，並提前查詢當日園區開放時間。
-      </li>
-    </ul>
 
-    <h3>2. 補充事項</h3>
-    <ul>
-      <li>早上從飯店出發至環球影城，預估交通時間約 15 分鐘。</li>
-      <li>建議提前購買午餐，避免排隊影響遊玩時間。</li>
-    </ul>
+      <h3>2. 補充事項</h3>
+      <ul>
+        <li>早上從飯店出發至環球影城，預估交通時間約 15 分鐘。</li>
+        <li>建議提前購買午餐，避免排隊影響遊玩時間。</li>
+      </ul>
+    </section>
+
+    <!-- 回到頂部的按鈕 -->
+    <button id="back-to-top">↑</button>
+
+    <!-- 回首頁的按鈕 -->
+    <a id="home-button" href="../index.html">回首頁</a>
+
+    <script src="../scripts/common.js"></script>
   </body>
 </html>
