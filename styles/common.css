@@ -1,63 +1,81 @@
 /* 針對 body 和基本樣式 */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 20px;
-    background-color: #f9f9f9;
-    position: relative;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  background-color: #f9f9f9;
+  position: relative;
 }
 
 /* 行程表格的樣式 */
 table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    overflow-x: auto;
+  width: 95%; /* 將表格寬度設為95%，增加與邊界的距離 */
+  border-collapse: collapse;
+  margin: 30px auto; /* 表格居中，並增加上下間距 */
+  overflow-x: auto;
+  background-color: #ffffff; /* 添加表格背景色，避免過於單調 */
+  border-radius: 8px; /* 為表格添加圓角 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加陰影效果 */
 }
-table, th, td {
-    border: 1px solid #ccc;
+table th,
+table td {
+  border: 1px solid #ddd; /* 修改邊框顏色，使其更柔和 */
+  padding: 15px; /* 增加單元格內邊距，讓內容更舒適 */
+  text-align: left;
 }
-th, td {
-    padding: 10px;
-    text-align: left;
+table th {
+  background-color: #f7f7f7; /* 更淺的表頭背景色 */
+  color: #333; /* 表頭文字顏色 */
+  font-weight: bold;
+  text-transform: uppercase; /* 表頭文字轉大寫，增加視覺層次感 */
 }
-th {
-    background-color: #f4f4f4;
+
+/* 表格行的背景效果 */
+table tbody tr:nth-child(even) {
+  background-color: #fafafa; /* 添加條紋背景，提升可讀性 */
+}
+table tbody tr:hover {
+  background-color: #f0f8ff; /* 行鼠標懸停效果 */
 }
 
 /* 回到頂部按鈕 */
 #back-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display: none;
-    width: 40px;
-    height: 40px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 40px;
-    cursor: pointer;
-    font-size: 18px;
-    z-index: 1000;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  width: 50px; /* 增加按鈕尺寸 */
+  height: 50px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px; /* 對齊字體 */
+  cursor: pointer;
+  font-size: 20px; /* 字體稍大 */
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 添加陰影 */
+}
+#back-to-top:hover {
+  background-color: #0056b3; /* 懸停變化 */
 }
 
 /* 回首頁按鈕 */
 #home-button {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    background-color: #28A745;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 16px;
-    z-index: 1000;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #28a745;
+  color: white;
+  padding: 12px 18px; /* 調整內邊距讓按鈕更美觀 */
+  border: none;
+  border-radius: 8px; /* 更圓滑的按鈕 */
+  text-decoration: none;
+  font-size: 16px;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 添加陰影 */
 }
 #home-button:hover {
-    background-color: #218838;
+  background-color: #218838; /* 懸停變化 */
 }
